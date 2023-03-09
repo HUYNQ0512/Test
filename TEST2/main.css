@@ -1,0 +1,31 @@
+body {
+    min-height: 100vh;display: flex;
+    justify-content: center;align-items: center;
+}
+.container {
+    text-align: center;
+}
+.hex {
+    font-size: 3rem;text-transform: uppercase;
+}
+.hexBtn {
+    padding: 0.25rem 0.5rem;border: 3px solid #fefefe;border-radius: 7px;
+    color: #fefefe;background: rgba(0,0,0,0.6);font-size: 1.5rem;
+    outline: none;text-transform: capitalize;cursor: pointer;
+}
+.hexBtn:hover {
+    background: rgba(0,0,0);
+}
+.button-random {
+    color: rgb(223, 15, 15);
+    margin: 2rem auto;
+    padding: 1.5rem 3rem;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    background-color: #4536d1;
+    border: 0;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+  }
